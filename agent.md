@@ -31,6 +31,29 @@ You are a coding mentor for a high school student building a PHP web game. Your 
 
 *(Note: `styles.css` is still required to fully complete Checkpoint 1)*
 
+### Page Layouts & Content
+- **index.php (Home):** Site title, navigation menu, list of available quizzes (pulled from `quizzes.json`), category filters, and a "Start Never-Ending Quiz" button.
+- **game.php (Gameplay):** The active interface displaying real-time stats (current score, streak count, elapsed time), the current question, and randomized answer buttons. Transitions to the Game Over state when finished.
+- **leaderboard.php:** A data table displaying saved player runs, with clickable headers to sort by Score, Name, Streak, and Time.
+- **about.php:** Contains the game rules, developer credits, and the mandatory AI documentation.
+- **admin.php:** The creator dashboard containing HTML forms to input new questions and build new quizzes.
+- 
+### Game Flow & Technical Requirements
+- **Core Loop:** User enters site -> selects quiz -> clicks start -> loops through questions -> Game Over -> prompted to save score.
+- **Game Over State:** Must display final score, offer a restart capability, and provide a simple form collecting the player's name.
+- **Save State:** Submitting the Game Over form writes all tracked gameplay metrics directly to `data/gamePlay.json`.
+- **Audio Effects:** Must include two sound files triggered by gameplay: one for a correct guess, and one for an incorrect guess.
+- **Admin/Creator Flow:** The site owner uses a dedicated creator page (e.g., `admin.php`) containing HTML forms to input new trivia questions (saving to `questions.json`) and bundle specific question IDs into new quizzes (saving to `quizzes.json`).
+- **Quiz Sharing:** Quizzes are shared via direct URLs using a query string parameter (e.g., `game.php?quiz=q_104`). The `game.php` page reads this parameter to load the specific quiz data from `quizzes.json`.
+- **Account System:** Accounts are lightweight and based solely on unique player names (no passwords or encrypted authentication). Players enter their name to "log in," save scores, and load past progress from the JSON data.
+- **Never-Ending Quiz (Custom Feature):** To comply with the "no APIs" rule, AI-generated questions are added to the local JSON file. This game mode loads *all* available questions from `data/questions.json`, shuffles them into a random order, and presents them one by one. The quiz ends when the entire database of questions (e.g., 100 or 500) has been exhausted.
+- **Category System:** The `tags` array in `questions.json` acts as the categories. Users can select a category from a list or dropdown on the main page. The game then dynamically generates a quiz using only questions that contain the selected tag.
+- **Real-Time Stats Display (HUD):** During gameplay, a dedicated section (like a header or sidebar) acts as a live ticker. It continuously displays: Current Score, Current Streak progress (e.g., "Streak: 3/5"), Current Question Number (e.g., "Q: 4/10"), and Elapsed Time. These values update instantly upon submitting an answer.
+- **Time Tracking:** Time is measured using a "stopwatch" approach, counting up from zero for the entire duration of the quiz run. The timer starts when the first question loads and stops immediately at the Game Over state. The total elapsed seconds are then saved as `timeLength`.
+
+
+
+
 ### Game Logic & Rules
 - **Leaderboard Sorting:** Must sort by Score, Name, Correct Streak, and Time Length.
 - **Scoring System:** 1 point per correct answer. 
@@ -44,22 +67,37 @@ You are a coding mentor for a high school student building a PHP web game. Your 
 [
   {
     "id": 1,
-    "question": "String",
+    "question": "What is the ticker symbol for Apple Inc.?",
     "options": [
-      "String",
-      "String",
-      "String",
-      "String"
+      "AAPL",
+      "APL",
+      "MAC",
+      "APP"
     ],
-    "correctAnswer": "String",
+    "correctAnswer": "AAPL",
     "tags": [
-      "String",
-      "String"
+      "business",
+      "stocks"
     ],
-    "difficulty": "easy | medium | hard"
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "What is the term for a market that is going up?",
+    "options": [
+      "Bear Market",
+      "Bull Market",
+      "Stagnant Market",
+      "Correction"
+    ],
+    "correctAnswer": "Bull Market",
+    "tags": [
+      "finance",
+      "vocab"
+    ],
+    "difficulty": "easy"
   }
 ]
-```
 
 **data/gamePlay.json:**
 ```json
@@ -75,6 +113,18 @@ You are a coding mentor for a high school student building a PHP web game. Your 
   }
 ]
 ```
+
+**data/quizzes.json:**
+```json
+[
+	{
+		"quizUid": "q_104",
+		"quizName": "String",
+		"category": "String",
+		"questionIds": [1, 5, 8, 12],
+		"createdBy": "String"
+	}
+]
 
 ---
 
