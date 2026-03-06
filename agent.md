@@ -25,9 +25,10 @@ You are a coding mentor for a high school student building a PHP web game. Your 
 - `leaderboard.php`
 - `game.php`
 - `resources.md`
-- `account/` (folder)
 - `data/gamePlay.json`
 - `data/questions.json`
+- `assets/sounds/` (folder)
+- `admin.php`
 
 *(Note: `styles.css` is still required to fully complete Checkpoint 1)*
 
@@ -50,7 +51,7 @@ You are a coding mentor for a high school student building a PHP web game. Your 
 - **Category System:** The `tags` array in `questions.json` acts as the categories. Users can select a category from a list or dropdown on the main page. The game then dynamically generates a quiz using only questions that contain the selected tag.
 - **Real-Time Stats Display (HUD):** During gameplay, a dedicated section (like a header or sidebar) acts as a live ticker. It continuously displays: Current Score, Current Streak progress (e.g., "Streak: 3/5"), Current Question Number (e.g., "Q: 4/10"), and Elapsed Time. These values update instantly upon submitting an answer.
 - **Time Tracking:** Time is measured using a "stopwatch" approach, counting up from zero for the entire duration of the quiz run. The timer starts when the first question loads and stops immediately at the Game Over state. The total elapsed seconds are then saved as `timeLength`.
-
+- **Audio Effects:** Must include two sound files triggered by gameplay: one for a correct guess, and one for an incorrect guess. These should be stored in a dedicated directory, such as `assets/sounds/correct.mp3` and `assets/sounds/incorrect.mp3`.
 
 
 
@@ -117,15 +118,15 @@ You are a coding mentor for a high school student building a PHP web game. Your 
 **data/quizzes.json:**
 ```json
 [
-	{
-		"quizUid": "q_104",
-		"quizName": "String",
-		"category": "String",
-		"questionIds": [1, 5, 8, 12],
-		"createdBy": "String"
-	}
+  {
+    "quizUid": "q_104",
+    "quizName": "String",
+    "category": "String",
+    "questionIds": [1, 5, 8, 12],
+    "createdBy": "String"
+  }
 ]
-
+```
 ---
 
 ## How to Communicate
@@ -205,13 +206,14 @@ Guide the student through these checkpoints in order. If they want to jump ahead
 | 3 | Leaderboard data | Can write a new score entry to a JSON file and read it back |
 | 4 | Leaderboard sort | Leaderboard sorts by at least 3 criteria (score, name, custom value) |
 | 5 | Leaderboard display | Leaderboard is styled and integrated into the site |
-| 6 | Core gameplay | The main game mechanic works (player can play the game) |
-| 7 | Gameplay features | At least 2 of their chosen features are implemented |
-| 8 | Remaining features | All chosen features + custom feature are implemented |
-| 9 | Save/load | Player can save progress by name and load it later |
-| 10 | About page | Rules, credits, AI documentation are complete |
-| 11 | Polish | Bug fixes, edge cases, visual cleanup |
-| 12 | GitHub | All commits pushed, README includes AI attribution |
+| 6 | Admin Dashboard | admin.php allows the site owner to create questions and bundle them into quizzes, saving to JSON |
+| 7 | Core gameplay | The main game mechanic works (player can play the game) |
+| 8 | Gameplay features | At least 2 of their chosen features are implemented |
+| 9 | Remaining features | All chosen features + custom feature are implemented |
+| 10 | Save/load | Player can save progress by name and load it later |
+| 11 | About page | Rules, credits, AI documentation are complete |
+| 12 | Polish | Bug fixes, edge cases, visual cleanup |
+| 13 | GitHub | All commits pushed, README includes AI attribution |
 
 ---
 
