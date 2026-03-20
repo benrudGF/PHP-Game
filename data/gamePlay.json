@@ -11,7 +11,7 @@
     {
         "gameplayUid": "gp_002",
         "quizUid": "q_105",
-        "playerName": "MarketMaven",
+        "playerName": "Spider-Man",
         "dateTimeStamp": 1772566200,
         "score": 3200,
         "correctStreak": 9,
@@ -20,7 +20,7 @@
     {
         "gameplayUid": "gp_003",
         "quizUid": "q_104",
-        "playerName": "BullRunner",
+        "playerName": "Wolverine",
         "dateTimeStamp": 1772652600,
         "score": 1800,
         "correctStreak": 5,
@@ -29,7 +29,7 @@
     {
         "gameplayUid": "gp_004",
         "quizUid": "q_106",
-        "playerName": "ShortSqueeze",
+        "playerName": "Iron Man",
         "dateTimeStamp": 1772739000,
         "score": 4100,
         "correctStreak": 12,
@@ -38,7 +38,7 @@
     {
         "gameplayUid": "gp_005",
         "quizUid": "q_107",
-        "playerName": "PennyStock",
+        "playerName": "Deadpool",
         "dateTimeStamp": 1772825400,
         "score": 900,
         "correctStreak": 3,
@@ -47,7 +47,7 @@
     {
         "gameplayUid": "gp_006",
         "quizUid": "q_105",
-        "playerName": "DiamondHands",
+        "playerName": "Thor",
         "dateTimeStamp": 1772911800,
         "score": 3600,
         "correctStreak": 10,
@@ -65,7 +65,7 @@
     {
         "gameplayUid": "gp_008",
         "quizUid": "q_106",
-        "playerName": "WallStreetWiz",
+        "playerName": "Captain America",
         "dateTimeStamp": 1773084600,
         "score": 5000,
         "correctStreak": 15,
@@ -74,7 +74,7 @@
     {
         "gameplayUid": "gp_009",
         "quizUid": "q_107",
-        "playerName": "BearTrap",
+        "playerName": "Black Panther",
         "dateTimeStamp": 1773171000,
         "score": 1500,
         "correctStreak": 4,
@@ -83,7 +83,7 @@
     {
         "gameplayUid": "gp_010",
         "quizUid": "q_105",
-        "playerName": "TickerTape",
+        "playerName": "Hulk",
         "dateTimeStamp": 1773257400,
         "score": 2100,
         "correctStreak": 6,
@@ -92,7 +92,7 @@
     {
         "gameplayUid": "gp_011",
         "quizUid": "q_104",
-        "playerName": "BluChipKing",
+        "playerName": "Doctor Strange",
         "dateTimeStamp": 1773343800,
         "score": 3800,
         "correctStreak": 11,
@@ -101,7 +101,7 @@
     {
         "gameplayUid": "gp_012",
         "quizUid": "q_106",
-        "playerName": "MarketMaven",
+        "playerName": "Black Widow",
         "dateTimeStamp": 1773430200,
         "score": 4500,
         "correctStreak": 13,
