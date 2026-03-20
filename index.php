@@ -14,7 +14,7 @@
                   <a href="index.php">Dashboard</a>
                   <a href="leaderboard.php">Leaderboard</a>
                   <a href="about.php">Market Rules</a>
-                  <a href="about.php">Admin</a>
+                  <a href="admin.php">Admin</a>
               </nav>
           </div>
       </header>

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "question": "What is the ticker symbol for Apple Inc.?",
+        "options": [
+            "AAPL",
+            "APL",
+            "MAC",
+            "APP"
+        ],
+        "correctAnswer": "AAPL",
+        "tags": [
+            "business",
+            "stocks"
+        ],
+        "difficulty": "easy"
+    },
+    {
+        "id": 2,
+        "question": "What is the term for a market that is going up?",
+        "options": [
+            "Bear Market",
+            "Bull Market",
+            "Stagnant Market",
+            "Correction"
+        ],
+        "correctAnswer": "Bull Market",
+        "tags": [
+            "finance",
+            "vocab"
+        ],
+        "difficulty": "easy"
+    },
+    {
+        "id": 3,
+        "question": "Which company has the ticker symbol MSFT?",
+        "options": [
+            "Meta",
+            "Microsoft",
+            "Mastercard",
+            "Misfits Gaming"
+        ],
+        "correctAnswer": "Microsoft",
+        "tags": [
+            "business",
+            "stocks"
+        ],
+        "difficulty": "easy"
+    },
+    {
+        "id": 4,
+        "question": "What does IPO stand for?",
+        "options": [
+            "Initial Public Offering",
+            "Internal Profit Operation",
+            "International Purchase Order",
+            "Investor Portfolio Option"
+        ],
+        "correctAnswer": "Initial Public Offering",
+        "tags": [
+            "finance",
+            "vocab"
+        ],
+        "difficulty": "medium"
+    },
+    {
+        "id": 5,
+        "question": "What year did the Wall Street Crash occur?",
+        "options": [
+            "1919",
+            "1929",
+            "1939",
+            "1949"
+        ],
+        "correctAnswer": "1929",
+        "tags": [
+            "history",
+            "finance"
+        ],
+        "difficulty": "medium"
+    }
+]
