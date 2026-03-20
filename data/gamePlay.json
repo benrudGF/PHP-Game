@@ -1,110 +1,182 @@
 [
     {
         "gameplayUid": "gp_001",
-        "quizUid": "q_104",
-        "playerName": "Todd",
-        "dateTimeStamp": 1772479800,
-        "score": 2500,
-        "correctStreak": 7,
-        "timeLength": 95
-    },
-    {
-        "gameplayUid": "gp_002",
-        "quizUid": "q_105",
-        "playerName": "Spider-Man",
-        "dateTimeStamp": 1772566200,
-        "score": 3200,
-        "correctStreak": 9,
-        "timeLength": 78
-    },
-    {
-        "gameplayUid": "gp_003",
-        "quizUid": "q_104",
-        "playerName": "Wolverine",
-        "dateTimeStamp": 1772652600,
-        "score": 1800,
-        "correctStreak": 5,
-        "timeLength": 120
-    },
-    {
-        "gameplayUid": "gp_004",
-        "quizUid": "q_106",
-        "playerName": "Iron Man",
-        "dateTimeStamp": 1772739000,
-        "score": 4100,
-        "correctStreak": 12,
-        "timeLength": 65
-    },
-    {
-        "gameplayUid": "gp_005",
-        "quizUid": "q_107",
-        "playerName": "Deadpool",
-        "dateTimeStamp": 1772825400,
-        "score": 900,
-        "correctStreak": 3,
-        "timeLength": 145
-    },
-    {
-        "gameplayUid": "gp_006",
-        "quizUid": "q_105",
-        "playerName": "Thor",
-        "dateTimeStamp": 1772911800,
-        "score": 3600,
-        "correctStreak": 10,
-        "timeLength": 82
-    },
-    {
-        "gameplayUid": "gp_007",
-        "quizUid": "q_104",
-        "playerName": "Todd",
-        "dateTimeStamp": 1772998200,
-        "score": 2900,
-        "correctStreak": 8,
-        "timeLength": 88
-    },
-    {
-        "gameplayUid": "gp_008",
         "quizUid": "q_106",
         "playerName": "Captain America",
-        "dateTimeStamp": 1773084600,
+        "dateTimeStamp": 1772479800,
         "score": 5000,
         "correctStreak": 15,
         "timeLength": 55
     },
     {
+        "gameplayUid": "gp_002",
+        "quizUid": "q_105",
+        "playerName": "Iron Man",
+        "dateTimeStamp": 1772566200,
+        "score": 4800,
+        "correctStreak": 14,
+        "timeLength": 58
+    },
+    {
+        "gameplayUid": "gp_003",
+        "quizUid": "q_104",
+        "playerName": "Doctor Strange",
+        "dateTimeStamp": 1772652600,
+        "score": 4600,
+        "correctStreak": 13,
+        "timeLength": 62
+    },
+    {
+        "gameplayUid": "gp_004",
+        "quizUid": "q_106",
+        "playerName": "Black Widow",
+        "dateTimeStamp": 1772739000,
+        "score": 4500,
+        "correctStreak": 13,
+        "timeLength": 60
+    },
+    {
+        "gameplayUid": "gp_005",
+        "quizUid": "q_107",
+        "playerName": "Thor",
+        "dateTimeStamp": 1772825400,
+        "score": 4300,
+        "correctStreak": 12,
+        "timeLength": 68
+    },
+    {
+        "gameplayUid": "gp_006",
+        "quizUid": "q_105",
+        "playerName": "Spider-Man",
+        "dateTimeStamp": 1772911800,
+        "score": 4100,
+        "correctStreak": 12,
+        "timeLength": 72
+    },
+    {
+        "gameplayUid": "gp_007",
+        "quizUid": "q_104",
+        "playerName": "Black Panther",
+        "dateTimeStamp": 1772998200,
+        "score": 3900,
+        "correctStreak": 11,
+        "timeLength": 75
+    },
+    {
+        "gameplayUid": "gp_008",
+        "quizUid": "q_106",
+        "playerName": "Scarlet Witch",
+        "dateTimeStamp": 1773084600,
+        "score": 3800,
+        "correctStreak": 11,
+        "timeLength": 78
+    },
+    {
         "gameplayUid": "gp_009",
         "quizUid": "q_107",
-        "playerName": "Black Panther",
+        "playerName": "Wolverine",
         "dateTimeStamp": 1773171000,
-        "score": 1500,
-        "correctStreak": 4,
-        "timeLength": 130
+        "score": 3600,
+        "correctStreak": 10,
+        "timeLength": 82
     },
     {
         "gameplayUid": "gp_010",
         "quizUid": "q_105",
         "playerName": "Hulk",
         "dateTimeStamp": 1773257400,
+        "score": 3400,
+        "correctStreak": 10,
+        "timeLength": 85
+    },
+    {
+        "gameplayUid": "gp_011",
+        "quizUid": "q_104",
+        "playerName": "Deadpool",
+        "dateTimeStamp": 1773343800,
+        "score": 3200,
+        "correctStreak": 9,
+        "timeLength": 88
+    },
+    {
+        "gameplayUid": "gp_012",
+        "quizUid": "q_106",
+        "playerName": "Hawkeye",
+        "dateTimeStamp": 1773430200,
+        "score": 3000,
+        "correctStreak": 9,
+        "timeLength": 90
+    },
+    {
+        "gameplayUid": "gp_013",
+        "quizUid": "q_107",
+        "playerName": "Captain Marvel",
+        "dateTimeStamp": 1773516600,
+        "score": 2800,
+        "correctStreak": 8,
+        "timeLength": 95
+    },
+    {
+        "gameplayUid": "gp_014",
+        "quizUid": "q_105",
+        "playerName": "Vision",
+        "dateTimeStamp": 1773603000,
+        "score": 2600,
+        "correctStreak": 8,
+        "timeLength": 98
+    },
+    {
+        "gameplayUid": "gp_015",
+        "quizUid": "q_104",
+        "playerName": "Ant-Man",
+        "dateTimeStamp": 1773689400,
+        "score": 2500,
+        "correctStreak": 7,
+        "timeLength": 100
+    },
+    {
+        "gameplayUid": "gp_016",
+        "quizUid": "q_106",
+        "playerName": "War Machine",
+        "dateTimeStamp": 1773775800,
+        "score": 2300,
+        "correctStreak": 7,
+        "timeLength": 105
+    },
+    {
+        "gameplayUid": "gp_017",
+        "quizUid": "q_107",
+        "playerName": "Falcon",
+        "dateTimeStamp": 1773862200,
         "score": 2100,
         "correctStreak": 6,
         "timeLength": 110
     },
     {
-        "gameplayUid": "gp_011",
-        "quizUid": "q_104",
-        "playerName": "Doctor Strange",
-        "dateTimeStamp": 1773343800,
-        "score": 3800,
-        "correctStreak": 11,
-        "timeLength": 72
+        "gameplayUid": "gp_018",
+        "quizUid": "q_105",
+        "playerName": "Winter Soldier",
+        "dateTimeStamp": 1773948600,
+        "score": 1900,
+        "correctStreak": 6,
+        "timeLength": 115
     },
     {
-        "gameplayUid": "gp_012",
+        "gameplayUid": "gp_019",
+        "quizUid": "q_104",
+        "playerName": "Groot",
+        "dateTimeStamp": 1774035000,
+        "score": 1700,
+        "correctStreak": 5,
+        "timeLength": 120
+    },
+    {
+        "gameplayUid": "gp_020",
         "quizUid": "q_106",
-        "playerName": "Black Widow",
-        "dateTimeStamp": 1773430200,
-        "score": 4500,
-        "correctStreak": 13,
-        "timeLength": 60
+        "playerName": "Star-Lord",
+        "dateTimeStamp": 1774121400,
+        "score": 1500,
+        "correctStreak": 4,
+        "timeLength": 130
     }
 ]
