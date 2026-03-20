@@ -105,3 +105,153 @@ main.container {
 		font-weight: bold;
 		padding-top: 10px;
 }
+
+/* ═══════════════════════════════════════════════════════════
+   7. Admin Dashboard - The Creator's Trading Desk
+   ═══════════════════════════════════════════════════════════ */
+
+/* Success/status message banner */
+.admin-alert {
+		background-color: #d4edda;
+		color: #155724;
+		border: 1px solid #c3e6cb;
+		padding: 12px 20px;
+		border-radius: 8px;
+		margin-bottom: 24px;
+		font-weight: 500;
+}
+
+/* Two-column layout for the question + quiz builder cards */
+.admin-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 24px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+}
+
+/* Each admin card (question form / quiz builder) */
+.admin-card {
+		background: #ffffff;
+		padding: 24px;
+		border-radius: 8px;
+		border: 1px solid #e1e1e1;
+		box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.admin-card h3 {
+		margin-top: 0;
+		color: #2c3e50;
+}
+
+.admin-subtitle {
+		color: #777;
+		font-size: 0.9rem;
+		margin-bottom: 16px;
+}
+
+/* Form styles inside admin cards */
+.admin-form label {
+		display: block;
+		font-weight: 600;
+		margin-bottom: 4px;
+		margin-top: 12px;
+		color: #2c3e50;
+		font-size: 0.9rem;
+}
+
+.admin-form input[type="text"],
+.admin-form select {
+		width: 100%;
+		padding: 10px 12px;
+		border: 1px solid #ddd;
+		border-radius: 6px;
+		font-size: 0.95rem;
+		box-sizing: border-box;
+		font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-form input[type="text"]:focus,
+.admin-form select:focus {
+		outline: none;
+		border-color: #2ecc71;
+		box-shadow: 0 0 0 2px rgba(46, 204, 113, 0.2);
+}
+
+/* 2x2 grid for the four answer options */
+.options-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 8px;
+}
+
+/* Side-by-side tags + difficulty row */
+.form-row {
+		display: flex;
+		gap: 12px;
+}
+
+.form-group {
+		flex: 1;
+}
+
+/* Submit button inside forms */
+.admin-form .btn-primary {
+		margin-top: 20px;
+		border: none;
+		cursor: pointer;
+		font-size: 1rem;
+		font-family: 'Segoe UI', sans-serif;
+		width: 100%;
+		text-align: center;
+}
+
+.admin-form .btn-primary:hover {
+		background-color: #27ae60;
+}
+
+/* Question bank reference table */
+.question-bank {
+		margin-top: 24px;
+		padding-top: 16px;
+		border-top: 1px solid #e1e1e1;
+}
+
+.question-bank h4 {
+		margin-top: 0;
+		color: #2c3e50;
+}
+
+.admin-table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 0.85rem;
+}
+
+.admin-table th {
+		background-color: #2c3e50;
+		color: #ffffff;
+		padding: 8px 10px;
+		text-align: left;
+}
+
+.admin-table td {
+		padding: 8px 10px;
+		border-bottom: 1px solid #e1e1e1;
+}
+
+.admin-table tr:hover {
+		background-color: #f4f7f6;
+}
+
+/* Section below the grid for existing quizzes */
+.admin-section {
+		margin-top: 10px;
+		margin-bottom: 20px;
+}
+
+/* Empty state placeholder */
+.empty-state {
+		color: #999;
+		font-style: italic;
+}
